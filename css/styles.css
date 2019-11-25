@@ -1,0 +1,31 @@
+
+			p {
+
+
+
+				margin-top: 20px;
+				/*margin-bottom: 400px;*/
+			}
+
+			.centered-text{
+				text-align: left;
+			}
+
+			.flip_red {
+				color:red;
+				/*background: red;*/
+
+			}
+
+			.flip_white {
+				color:white;
+				background: red;
+			}
+
+			.div_centerbox{
+				margin-top: 300px;
+				margin-left: 300px;
+				margin-right: auto;
+				width: 500px;
+
+			}
