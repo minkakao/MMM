@@ -81,35 +81,48 @@
 
 			.sound3{
 				display: block;
-				width: 200px;
+				width: 250px;
 				float: left;
 				background-color: white;
-        margin_left: 400px;
-				/* border-style: solid;
-				border-color: grey;
-				border-width: 1.5px; */
+				 /*border-style: solid;*/
+				border-color: red;
+				border-width: 1.5px;
 			}
 
 			.sound4{
 				display: block;
-				width: 200px;
+				width: 250px;
 				float: left;
 				background-color: white;
-				/* border-style: solid;
-				border-color: grey;
-				border-width: 1.5px; */
+				 /*border-style: solid;*/
+				border-color: orange;
+				border-width: 1.5px;
 			}
 
 			.sound5{
 				display: block;
-				width: 200px;
+				width: 250px;
 				float: left;
 				background-color: white;
-				/* border-style: solid;
+				 /*border-style: solid;*/
 				border-color: grey;
-				border-width: 1.5px; */
+				border-width: 1.5px;
 			}
 
+			.music_center{
+				margin-right: auto;
+				margin-left: auto;
+				width: 800px;
+				overflow-x:auto;
+			}
+
+			@media (max-width: 800px) {
+				.music_center {
+					margin-right: auto;
+					margin-left: auto;
+					width: 50%;
+				}
+			}
 
 		</style>
 	</head>
@@ -152,16 +165,7 @@
 				</div>
 
 
-		<!-- <div class="sound2">
-			<!-- 		<p> <img src="../img/monkey1_rainbowjuice.png" width="200"></p> -->
-			<!-- <p>Sound2_Sungnam_Reconstruction_Project </p>
-			<p>
-			<audio controls>
-				<source src="../video/reconstruction_1114.ogg" type="audio/ogg">
-				<source src="../video/reconstruction_1114.mp3" type="audio/mpeg">Your browser does not support the audio element.
-				</audio> </p> -->
-		<!-- </div> -->
-
+<div class="music_center">
 		<div class="sound3 center">
 			<!-- 		<p> <img src="../img/monkey1_rainbowjuice.png" width="200"></p> -->
 			<p>Sound3_SeaLife_1 </p>
@@ -176,7 +180,7 @@
 			<!-- 		<p> <img src="../img/monkey1_rainbowjuice.png" width="200"></p> -->
 			<p>Sound2_Sealife_2 </p>
 			<p>
-			<audio controls>
+			<audio controls >
         <source src="../video/ansan_ambient_night0726.ogg" type="audio/ogg">
         <source src="../video/ansan_ambient_night0726.wav" type="audio/mpeg">Your browser does not support the audio element.
         </audio> </p>
@@ -191,6 +195,8 @@
 				<source src="../video/myth.mp3" type="audio/mpeg">Your browser does not support the audio element.
 				</audio> </p>
 		</div>
+
+	</div>
 
 
 	</body>
