@@ -13,12 +13,17 @@
 				background-size:cover;
 				/*background-size: contain;*/
 			}
-			@media (max-width: 800px) {
-				.back	{	/*background-color:yellow;*/
-				background-image:url("small_hand_index.jpg");
-				background-repeat: no-repeat;
-				background-size:cover;
-			/*background-size: contain;*/}
+			@media only screen
+	  	and (min-device-width: 414px)
+	  	and (max-device-width: 736px)
+	  	and (-webkit-min-device-pixel-ratio: 3)
+	  	and (orientation: portrait) {
+ 				.back	{	/*background-color:yellow;*/
+					background-image:url("small_hand_index.jpg");
+					background-repeat: no-repeat;
+					background-size:cover;
+					/*background-size: contain;*/
+					}
 			}
 
 
